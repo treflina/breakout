@@ -68,7 +68,7 @@ while game_is_on:
             scoreboard.point(1)
             ball.bounce_y()
 
-    if abs(ball.xcor() - paddle.xcor()) < 120 and abs(ball.ycor() - paddle.ycor()) < 15:
+    if abs(ball.xcor() - paddle.xcor()) < 120 and abs(ball.ycor() - paddle.ycor()) < 10:
         ball.bounce_y()
 
     if ball.is_at_line():
